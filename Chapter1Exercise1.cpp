@@ -20,11 +20,11 @@ int main()
     double grossPay = hourlyRate * hoursWorked;
     
     cout << "Enter Employee's name: ";
-    cin >> employeeName;
+        cin >> employeeName;
     cout << "What is " << employeeName << "'s Hourly Rate? ";
-    cin >> hourlyRate;
+        cin >> hourlyRate;
     cout << "How many hours did " << employeeName << " work? ";
-    cin >> hoursWorked;
+        cin >> hoursWorked;
     grossPay = hourlyRate * hoursWorked;
     cout << employeeName << "'s Gross Pay is $" << fixed << setprecision(2) << grossPay <<"\n\n";
 
