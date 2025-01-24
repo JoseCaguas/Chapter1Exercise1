@@ -1,6 +1,7 @@
 /*
 File Name: Chapter1Exercize1.cpp
 Programer: Jose L. Torres
+Class: CSC 221 - 30W
 Date: Jan 24, 2025
 Requirements:
 Take the employees hours worked for the week
@@ -9,8 +10,8 @@ display it on the monitor
 */
 
 #include <iostream>
-    using namespace std;
-#include <iomanip>
+    using namespace std; //used to simplify cout and cin
+#include <iomanip> //used to pull precision 
 
 int main()
 {
