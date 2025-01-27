@@ -22,7 +22,7 @@ int main()
     
     cout << "Enter Employee's name: ";
         cin >> employeeName;
-    cout << "What is " << employeeName << "'s Hourly Rate? ";
+    cout << "What is " << employeeName << "'s Hourly Rate? $";
         cin >> hourlyRate;
     cout << "How many hours did " << employeeName << " work? ";
         cin >> hoursWorked;
